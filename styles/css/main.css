@@ -1,3 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
 
+body {
+  margin: 0;
+  background: linear-gradient(to top, #274b69, #3f4d63);
+  height: 100vh;
+}
+body header {
+  width: 4rem;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+}
+body .nav-list {
+  background: #85a1c1;
+  width: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+body .nav-item {
+  padding: 0.5rem;
+  padding-left: 0.9rem;
+}
+body .nav-item svg {
+  width: 2rem;
+}
+body .nav-item:first-child {
+  margin-bottom: auto;
+}
+body #main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+body #main h2 {
+  color: #69a4a2;
+  padding: 8px;
+}
+body #main h3 {
+  color: #b0b5b5;
+  padding: 5px;
+}
+body #main .big-title {
+  font-size: clamp(40px, 8vw, 80px);
+}
+body #main h1 {
+  padding: 5px;
+  color: #dae4e5;
+}
+body #main p {
+  color: #69a4a2;
+  padding: 8px;
+  padding-top: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
